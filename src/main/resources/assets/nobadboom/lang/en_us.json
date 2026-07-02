@@ -1,0 +1,4 @@
+{
+  "gamerule.tntExplodes": "TNT destroys blocks",
+  "gamerule.tntExplodes.description": "When disabled, TNT and TNT minecarts still detonate but do not destroy any blocks."
+}

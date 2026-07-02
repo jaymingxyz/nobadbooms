@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "nobadboom"
+version = "1.0.0"
+displayName = "NoBadBoom"
+authors = "shianscxyz"
+description = '''Adds a tntExplodes gamerule (like Bedrock Edition) that stops TNT from destroying blocks.'''
+# Server-side mod: vanilla/unmodded clients can join a server running it.
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.nobadboom]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nobadboom]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
