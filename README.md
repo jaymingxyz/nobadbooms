@@ -1,4 +1,4 @@
-# NoBadBoom
+# NoBadBooms!
 
 A server-side NeoForge **1.21.1** mod that adds a `tntExplodes` gamerule — similar to
 Bedrock Edition — letting you stop TNT from destroying blocks.
